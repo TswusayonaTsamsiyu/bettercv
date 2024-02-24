@@ -1,0 +1,5 @@
+numpy
+colorutils
+screeninfo
+opencv-python
+more-itertools
