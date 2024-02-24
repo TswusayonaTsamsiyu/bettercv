@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bettercv"
+version = "0.1.0"
+description = "A wrapper for the opencv-python library with an actually convenient user interface"
+readme = "README.md"
+authors = [{ name = "Gabriel Bronshtein", email = "gabi.bronshtein@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["opencv"]
+dependencies = [
+    "numpy",
+    "colorutils",
+    "screeninfo",
+    "opencv-python",
+    "more-itertools"
+]
+requires-python = ">=3.5"
+
+[project.urls]
+Homepage = "https://github.com/TswusayonaTsamsiyu/bettercv"
